@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+</head>
+<body>
+    <h1>Endereço</h1>
+    <form method="get">
+        <label>
+            CEP:
+            <input type="number" id="cep">
+        </label> <br>
+        <span id="mensagem-erro"></span><br>
+
+        <label>
+            logradouro
+            <input type="text" id="logradouro">
+        </label><br>
+
+        <label>
+            BAIRRO:
+            <input type="text" id="bairro">
+        </label><br>
+        <label>
+            localidade:
+            <input type="text" id="localidade">
+        </label><br>
+        <label>
+            uf:
+            <input type="text" id="uf">
+        </label><br>
+
+        <label>
+            ibge:
+            <input type="text" id="ibge">
+        </label><br>
+
+        <label>
+            ddd:
+            <input type="text" id="ddd">
+        </label><br>
+        <button id="buscar">buscar</button>
+        <button id="limpar">limpar</button>
+    </form>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>
