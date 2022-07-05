@@ -4,50 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Desafio Vtrina</title>
 </head>
+
 <body>
-    <h1>Endereço</h1>
-    <form method="get">
-        <label>
-            CEP:
-            <input type="number" id="cep">
-        </label> <br>
-        <span id="mensagem-erro"></span><br>
-
-        <label>
-            logradouro
-            <input type="text" id="logradouro">
-        </label><br>
-
-        <label>
-            BAIRRO:
-            <input type="text" id="bairro">
-        </label><br>
-        <label>
-            localidade:
-            <input type="text" id="localidade">
-        </label><br>
-        <label>
-            uf:
-            <input type="text" id="uf">
-        </label><br>
-
-        <label>
-            ibge:
-            <input type="text" id="ibge">
-        </label><br>
-
-        <label>
-            ddd:
-            <input type="text" id="ddd">
-        </label><br>
-        <button id="buscar">buscar</button>
-        <button id="limpar">limpar</button>
-    </form>
+    <style>
+        body{
+              font-style: normal;
+              font-size: 20px;
+              font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif ,Times New Roman;
+              background-color: #843AF3;
+            }
+     </style>
     
+    <nav class="navbar" style="margin-bottom: 50px; background-color: white; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-size: 30px">Desafio Vtrina</a>
+        </div>
+    </nav>
+
+    <div class="container">  
+        <form action=""  method="get" name="formulario">
+
+                <div class="form-group">
+                    <div class="col-md-6 offset-md-3">
+                        <label>CEP:</label>
+                        <input type="number" id="cep" class="form-control" placeholder="Digite seu CEP" required="">        
+                        <span id="mensagem-erro"></span><br>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-6 offset-md-3">
+                        <label>Logradouro:</label>
+                        <input type="text" id="logradouro" class="form-control" placeholder="Logradouro" required="">        
+                    </div>
+                </div>
+
+                
+                <div class="form-group">
+                    <div class="col-md-6 offset-md-3">
+                        <label>Bairro:</label>
+                        <input type="text" id="bairro" class="form-control" placeholder="Bairro" required="">
+                    </div>
+                </div>
+
+                
+                <div class="form-group">
+                    <div class="col-md-6 offset-md-3">
+                        <label>Localidade:</label>
+                        <input type="text" id="localidade" class="form-control" placeholder="Localidade" required="">
+                    </div>
+                </div>
 
 
+                <div class="form-group">
+                    <div class="col-md-6 offset-md-3">
+                        <label>UF:</label>
+                        <input type="text" id="uf" class="form-control" placeholder="UF" required="">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-6 offset-md-3">
+                        <label>IBGE:</label>
+                        <input type="text" id="ibge" class="form-control" placeholder="IBGE" required="">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-6 offset-md-3">
+                        <label>DDD:</label>
+                        <input type="text" id="ddd" class="form-control" placeholder="DDD" required="">
+                    </div>
+                </div>
+
+                
+                <div class="text-center" style="margin-top: 20px;">          
+                    <button id="buscar" class="btn btn-primary">Buscar</button>
+                    <button id="limpar" class="btn btn-primary">Limpar</button>
+                </div>
+            
+        </form>
+    </div>
+
+    <footer style="margin-top: 50px">
+        <div class="footer-copyright text-center py-3" style="background-color:#4ce688">© 2022 Copyright: By Nathalia R.</div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script type="module" src="./js/index.js"></script>
 </body>
