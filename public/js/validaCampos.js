@@ -3,7 +3,6 @@ import { apiLocal } from "./apiLocal.js";
 export function validacao () {
     const cep = $('#cep').val().replace(/\D/g, '');
     const msgErro = $('#mensagem-erro');
-    // console.log(apiLocal(cep))
    if(cep.length == 0)  {
     msgErro.css("display", "block");
     msgErro.text('Digite seu CEP'); 

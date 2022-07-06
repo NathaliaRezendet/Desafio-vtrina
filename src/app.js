@@ -23,7 +23,6 @@ async function getData (numeros) {
 app.get('/:cep', async (req, res) => {
   
   const {cep} =  req.params;
-  console.log(cep)
   try {
     const resultData = await getData(cep);
     res.status(200).json(resultData);

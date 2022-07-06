@@ -1,4 +1,3 @@
-
  export function apiLocal (cep) {
    const logradouro = $('#logradouro');
    const bairro = $('#bairro');
@@ -7,7 +6,6 @@
    const ibge = $('#ibge');
    const ddd = $('#ddd');
    
-  let cepInvalido ='' ;
     $.ajax({url:`http://localhost:3000/${cep}`,
 
       success: (response) => {
@@ -18,18 +16,11 @@
         ibge.val(response.ibge)
         ddd.val(response.ddd)
 
-        if (response.erro=='true') {
-          console.log(response)
-          cepInvalido = 'true'
+        if (response.erro=='true') {         
               alert('erro')
         }
       },
-      error: (e) => {
-        console.log(e)
-      },
-    });
-    console.log(cepInvalido)
-    
+    });  
   }
 
  
