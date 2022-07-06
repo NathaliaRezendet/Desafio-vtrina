@@ -2,14 +2,19 @@
 
 O desafio consiste em desenvolver uma aplicação em NodeJS onde através de uma consulta de CEP(ViaCep), receberá as seguintes informações, LOGRADOURO, BAIRRO, LOCALIDADE, UF, IBGE, DDD.
 
+## Layout
 
-### Pré-requisitos
+Desktop  | Mobile
+:---:|:---:
+![](./public/img/print-des.PNG)  |  ![](./public/img/print-mob.PNG)
+
+## Pré-requisitos
 
 ```
 NodeJS
 ```
 
-### Instalação
+## Instalação
 
 Você pode utilizar o projeto seguindo esses passos:
 
