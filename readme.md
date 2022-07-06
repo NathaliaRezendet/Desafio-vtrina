@@ -1,6 +1,6 @@
 # Desafio Vtrina
 
-     O desafio consiste em desenvolver uma aplicação em NodeJS onde através de uma consulta de CEP(ViaCep), receberá as seguintes informações, LOGRADOURO, BAIRRO, LOCALIDADE, UF, IBGE, DDD.
+O desafio consiste em desenvolver uma aplicação em NodeJS onde através de uma consulta de CEP(ViaCep), receberá as seguintes informações, LOGRADOURO, BAIRRO, LOCALIDADE, UF, IBGE, DDD.
 
 
 ### Pré-requisitos
@@ -32,7 +32,7 @@ $ npm run dev
 
 ## Deploy
 
-Você pode acessar o deploy da aplicação clicando [AQUI!](desafio-vtrina.vercel.app)
+Você pode acessar o deploy da aplicação clicando [AQUI!](https://desafio-vtrina.vercel.app/)
 
 ## Tecnologias e ferramentas utilizadas
 
