@@ -55,7 +55,7 @@ Você pode acessar o deploy da aplicação clicando [AQUI!](https://desafio-vtri
 
 ## Licença
 
- - Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](./LICENSE) para detalhes.
+ - Este projeto está sob a licença - veja o arquivo [LICENSE.md](./LICENSE) para detalhes.
 
 
 ---
