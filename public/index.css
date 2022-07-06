@@ -1,8 +1,14 @@
 body{
+    width: 100vw;
+    height: 100vh;
     font-style: normal;
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
     background-color: #b2e7e8;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
   }
 
 nav {
@@ -15,11 +21,22 @@ nav {
     font-size: 30px;
 }
 
-footer {
+footer .footer {
     margin-top: 50px;
     background-color: #304d63;
     color: white;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 ;
+}
+
+#localidade, #cep, #ibge {
+   max-width: 300px;
+}
+
+#uf, #ddd {
+    max-width: 100px;
 }
 
 input::-webkit-outer-spin-button,
